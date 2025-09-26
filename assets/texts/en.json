@@ -1,0 +1,67 @@
+{
+  "startseite": {
+    "info": "To use the AR feature, camera access is required.",
+    "button": "Start AR"
+  },
+  "overlay": {
+    "home": "Home",
+    "language": "Change language",
+    "tts": "Read aloud",
+    "accessibility": "Accessibility",
+    "labels": {
+      "languageSwitch": "Change language",
+      "langDe": "German",
+      "langEn": "English",
+      "readerStart": "Start reading",
+      "stop": "Stop",
+      "pause": "Pause",
+      "resume": "Resume",
+      "elapsed": "Elapsed time",
+      "remaining": "Remaining time"
+    }
+  },
+  "ar": {
+    "marker1": {
+      "question": "What comes to your mind\nwhen you think of digital accessibility?",
+      "preset": {
+        "t4": "Screen reader",
+        "t5": "Colors",
+        "t6": "Captions",
+        "t7": "Large fonts",
+        "t8": "Accessible code",
+        "t9": "BITV",
+        "t10": "WCAG",
+        "t11": "How can I develop accessibly",
+        "t12": "Is my design accessible",
+        "t13": "Accessibility Strengthening Act"
+      },
+      "form": {
+        "answerButton": "Answer",
+        "placeholder1": "Answer 1",
+        "placeholder2": "Answer 2",
+        "placeholder3": "Answer 3",
+        "cancel": "Cancel",
+        "send": "Send"
+      }
+    },
+    "marker2": {
+      "c1": "Visual impairment",
+      "c2": "Color vision\nimpairment",
+      "c3": "Photosensitive disorder",
+      "c4": "Limited mobility",
+      "c5": "Hearing loss &\ndeafness",
+      "c6": "Digital divide",
+      "c7": "Language barriers &\ncognitive barriers",
+      "c8": "Motor\nimpairment"
+    },
+    "marker4": {
+      "title": "This is a title",
+      "text": "Here is a very long text and it scales with the slider. blah blah blah. placeholder text repeated for layout purposes.",
+      "sliderLabel": "Slider:"
+    },
+    "marker5": {
+      "labels": ["Normal", "No red", "No green", "No blue", "No colors", "Drawing"],
+      "nav": {"prev": "Left", "next": "Right"}
+    }
+  }
+}

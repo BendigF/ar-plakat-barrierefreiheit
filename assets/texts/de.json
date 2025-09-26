@@ -1,0 +1,67 @@
+{
+  "startseite": {
+    "info": "Um die AR-Funktion zu nutzen, muss die Kamera freigegeben werden.",
+    "button": "AR starten"
+  },
+  "overlay": {
+    "home": "Startseite",
+    "language": "Sprache wechseln",
+    "tts": "Vorlesen",
+    "accessibility": "Barrierefreiheit",
+    "labels": {
+      "languageSwitch": "Sprache wechseln",
+      "langDe": "Deutsch",
+      "langEn": "Englisch",
+      "readerStart": "Vorlesen starten",
+      "stop": "Stop",
+      "pause": "Pause",
+      "resume": "Fortsetzen",
+      "elapsed": "Verstrichene Zeit",
+      "remaining": "Verbleibende Zeit"
+    }
+  },
+  "ar": {
+    "marker1": {
+      "question": "An was denkst du bei\ndigitaler Barrierefreiheit?",
+      "preset": {
+        "t4": "Screenreader",
+        "t5": "Farben",
+        "t6": "Untertitel",
+        "t7": "Große Schriften",
+        "t8": "Barrierefreier Code",
+        "t9": "BITV",
+        "t10": "WCAG",
+        "t11": "Wie kann ich barrierefrei entwickeln",
+        "t12": "Ist mein Entwurf Barrierefrei",
+        "t13": "Barrierefreiheitstärkungsgesetz"
+      },
+      "form": {
+        "answerButton": "Antworten",
+        "placeholder1": "Antwort 1",
+        "placeholder2": "Antwort 2",
+        "placeholder3": "Antwort 3",
+        "cancel": "Abbrechen",
+        "send": "Senden"
+      }
+    },
+    "marker2": {
+      "c1": "Sehbeeinträchtigung",
+      "c2": "Farbsehschwächen &\nFarbblindheit",
+      "c3": "Photosensitive Störung",
+      "c4": "Eingeschränkte Mobilität",
+      "c5": "Hörschwächen &\nGehörlosigkeit",
+      "c6": "Digitale Spaltung",
+      "c7": "Sprachbarrieren &\nkognitive Barrieren",
+      "c8": "Motorische\nBeeinträchtigung"
+    },
+    "marker4": {
+      "title": "Dies ist ein Titel",
+      "text": "Hier steht ein ganz langer Text und dieser skaliert mit dem schiebe regler. bla bla bla. bla bla bla. bla bla bla. bla bla bla. bla bla bla. bla bla bla.",
+      "sliderLabel": "Schieber:"
+    },
+    "marker5": {
+      "labels": ["Normal", "Kein Rot", "Kein Grün", "Kein Blau", "Keine Farben", "Zeichnung"],
+      "nav": {"prev": "Links", "next": "Rechts"}
+    }
+  }
+}

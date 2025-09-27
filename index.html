@@ -5,11 +5,23 @@
   <title>ArPlakatAccsoCon</title>
   <base href="/ar-plakat-barrierefreiheit/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Dynamic viewport height fix for mobile browsers (URL bar collapse/expand)
+    (function() {
+      function setVh() {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--app-vh', `${vh}px`);
+      }
+      window.addEventListener('resize', setVh);
+      window.addEventListener('orientationchange', setVh);
+      setVh();
+    })();
+  </script>
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"></script>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+<style>:root{--app-vh:100vh}body,html{margin:0;padding:0;height:100%}</style><link rel="stylesheet" href="styles.21981f481ef57aa3.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.21981f481ef57aa3.css"></noscript></head>
 <body>
   <app-root></app-root>
-<script src="runtime.c03af3220c448a0e.js" type="module"></script><script src="polyfills.aca3eefe138305ad.js" type="module"></script><script src="main.ba0545bd234cf320.js" type="module"></script></body>
+<script src="runtime.c03af3220c448a0e.js" type="module"></script><script src="polyfills.aca3eefe138305ad.js" type="module"></script><script src="main.598bd61093d18185.js" type="module"></script></body>
 </html>
